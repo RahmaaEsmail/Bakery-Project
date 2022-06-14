@@ -1,0 +1,256 @@
+:root {
+    --background-color: #8e7754;
+    --main-color: #e0c690;
+    --section-color: #f8f8f8;
+}
+
+h2, h3, h4 {
+    font-family: 'Alegreya', serif;
+}
+
+/* start section header */
+header {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+
+.layer-header {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: unset;
+}
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0;
+}
+.img-nav {
+    width: 15%;
+}
+.dropdown-menu{
+    min-width: 12rem;
+    background-color:  #424242 !important
+}
+.dropdown-item{
+    color: white;
+    transition: all 0.5s;
+}
+.dropdown-item:hover{
+    color: white;
+    background-color: #8e7754 !important;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu{
+display: block;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.nav-item {
+    font-size: 18px;
+    padding-right: 10px !important;
+}
+
+.link-hover {
+    transition: all .3s;
+}
+
+.link-hover:hover {
+    color: var(--main-color) !important
+}
+
+.header-text h1 {
+    font-family: 'Alegreya', serif;
+    font-size: 70px !important;
+
+}
+
+.learn-more {
+    background-color: var(--background-color);
+    border: 1px solid var(--background-color);
+    color: white;
+    border-radius: 5px;
+}
+
+.contact-us {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-hover {
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+.btn-hover:hover {
+    background-color: white;
+    color: black;
+}
+
+.circle {
+    width: 40px !important;
+    height: 60px !important;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.point {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    animation: pointer 7s infinite;
+    position: relative;
+}
+
+@keyframes pointer {
+
+    0% {
+        top: 0px;
+    }
+20%{
+    top: 45px;
+}
+    40% {
+        top: 0px;
+    }
+
+    60% {
+        top: 45px;
+    }
+
+    80% {
+        top: 0px;
+    }
+    100%{
+        top: 45px;
+    }
+
+}
+
+.icons {
+    background-color: white;
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    right: 0;
+    top: 30%;
+}
+
+.icons i {
+    color: gray !important;
+    font-size: 20px !important;
+
+}
+
+.icons i:hover {
+    color: blue !important;
+}
+
+/* end section header */
+
+
+
+/*start section about */
+.text-about p {
+    line-height: 1.6;
+}
+
+.text-about i {
+    font-size: 20px;
+    padding: 8px;
+    color: var(--background-color);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    vertical-align: middle;
+}
+
+.img-about img {
+    height: 450px !important;
+}
+
+/* end section about */
+
+
+/* start section location */
+.location {
+    background-color: var(--section-color);
+}
+
+.location img {
+    height: 350px !important;
+}
+
+/* end section location */
+
+
+/* start section contact */
+.contact {
+    background-color: var(--section-color);
+}
+
+.text-contact i {
+    color: white;
+    background-color: var(--background-color);
+    font-size: 20px;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    vertical-align: middle;
+}
+
+/* end section conatct */
+
+/* start section footer */
+footer {
+    background-color: #353330;
+}
+
+footer a {
+    text-decoration: none;
+    transition: all .5s;
+}
+
+footer a:hover {
+    color: white !important;
+}
+
+/* end section footer  */
+
+/* bottom */
+.black {
+    background-color: #1b1b1b;
+}
+
+.social-icons i {
+    font-size: 20px !important;
+    background-color: #353330;
+    font-size: 20px;
+    padding: 9px;
+    transition: all .5s;
+}
+
+.social-icons i.facebook:hover {
+    background-color: blue;
+    color: white !important;
+}
+
+.social-icons i.google:hover {
+    background-color: red;
+    color: white !important;
+}
+
+.social-icons i.linked:hover {
+    background-color: #007bb5;
+    color: white !important;
+}
+
+.social-icons i.twitter:hover {
+    background-color: #00aced;
+    color: white !important;
+}
